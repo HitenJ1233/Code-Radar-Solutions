@@ -6,8 +6,8 @@ int main(){
     scanf("%d",&b);
     char c[100];
     scanf("%c",&c);
-    printf("name: %c",a)
-    printf("Age: %d",b)
-    printf("Hobby: %c",c)
+    printf("Name: %c",a);
+    printf("Age: %d",b);
+    printf("Hobby: %c",c);
 
 }
