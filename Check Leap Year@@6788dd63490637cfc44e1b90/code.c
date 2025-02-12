@@ -5,7 +5,7 @@ int main(){
     if (a){
         printf("Leep year");
     } else{
-        printf("Not a leep year")
+        printf("Not a leep year");
     }
     return 0;
 }
