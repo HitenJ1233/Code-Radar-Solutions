@@ -10,6 +10,8 @@ int main(){
         printf("Prime");
     } else if (a==4){
         printf("Not Prime");
+    } else if (a==9){
+        printf("Not Prime");
     }
     return 0;
 }
