@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int t;
+    if (c<=0){
+        printf("Freezing");
+    } else{
+        printf("Above Freezing")
+    }
+    return 0;
+}
