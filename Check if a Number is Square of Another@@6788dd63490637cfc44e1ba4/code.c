@@ -1,12 +1,9 @@
 #include <stdio.h>
-#include <math.h> 
-
-int main() {
-    double value;
-    scanf("%d",&value)
-    double result = sqrt(value);
-    if (value==int(result)){
-         printf("Yes");
+int main(){
+    int x,y;
+    scanf("%d %d",&x,&y);
+    if (x==y*y){
+        printf("Yes");
     } else{
         printf("No");
     }
