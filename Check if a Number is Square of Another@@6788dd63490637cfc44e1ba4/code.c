@@ -2,7 +2,8 @@
 #include <math.h> 
 
 int main() {
-    double value = 9.0;
+    double value;
+    scanf("%d",&value)
     double result = sqrt(value);
     if (value==result){
          printf("Yes");
