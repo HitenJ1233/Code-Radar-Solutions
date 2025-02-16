@@ -1,11 +1,13 @@
 #include <stdio.h>
-int main(){
-    int x,y;
-    scanf("%d %d",&x,&y);
-    if (x==y*y){
-        printf("Yes");
+#include <math.h> 
+
+int main() {
+    double value = 9.0;
+    double result = sqrt(value);
+    if (value==result){
+         printf("Yes");
     } else{
-        printf("No");
+        printf("No")
     }
     return 0;
 }
