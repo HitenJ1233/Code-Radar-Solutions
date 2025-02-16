@@ -5,7 +5,7 @@ int main() {
     double value;
     scanf("%d",&value)
     double result = sqrt(value);
-    if (value==result){
+    if (value==int(result)){
          printf("Yes");
     } else{
         printf("No");
