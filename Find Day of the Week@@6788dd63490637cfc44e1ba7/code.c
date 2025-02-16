@@ -1,1 +1,23 @@
 #include <stdio.h>
+int main(){
+    int x;
+    scanf("%d",&x);
+    if (x==1){
+        printf("Monday");
+    } else if(x==2){
+        printf("Tuesday");
+    } else if(x==2){
+        printf("Wednesday");
+    } else if(x==2){
+        printf("Thursday");
+    } else if(x==2){
+        printf("Friday");
+    } else if(x==2){
+        printf("Saturday");
+    } else if(x==2){
+        printf("Sunday");
+    } else{
+        printf("Invalid")
+    }
+    return 0;
+}
