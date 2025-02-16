@@ -17,7 +17,7 @@ int main(){
     } else if(x==2){
         printf("Sunday");
     } else{
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }
