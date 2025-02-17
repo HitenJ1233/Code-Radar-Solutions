@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    if (a==2){
-        printf("Prime");
-    } else if(a==7){
-        printf("Prime");
-    } else if (a==13){
-        printf("Prime");
-    } else if (a==4){
-        printf("Not Prime");
-    } else if (a==9){
-        printf("Not Prime");
+    int n;
+    printf("enter a number: ");
+    scanf("%d",&n);
+    for(int i=3; i<=n; i++){
+        if (n%i==0){
+            printf("Not prime Number");
+            break;
+        } else{
+            printf("prime number");
+            break;
+        }
     }
     return 0;
 }
