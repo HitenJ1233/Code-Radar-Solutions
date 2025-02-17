@@ -9,11 +9,12 @@ int main(){
             a=1;
             break;
     }
+    }
     if(a==0){
         printf("Prime");
     } else{
         printf("Not Pirme");
     }
-} return 0;
+return 0;
 
 }
