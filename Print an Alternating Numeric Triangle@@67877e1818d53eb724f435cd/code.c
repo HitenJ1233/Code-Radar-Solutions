@@ -7,7 +7,7 @@ int main(){
             if ((i+j)%2==0){
                 printf("1 ");
             } else{
-                print("0 ");
+                printf("0 ");
             }
         } printf("\n");
     }return 0;
