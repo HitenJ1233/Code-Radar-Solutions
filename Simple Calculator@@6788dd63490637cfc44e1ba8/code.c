@@ -7,6 +7,10 @@ int main(){
         printf("d",a+b);
     } if else(c=='-'){ 
         printf("%d",a-b);
-    }
+    } if else(c=='-'){ 
+        printf("%d",a-b);
+    }if else(c=='-'){ 
+        printf("%d",a-b);
+    } 
 return 0;
 }
