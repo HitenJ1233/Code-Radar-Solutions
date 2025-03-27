@@ -9,4 +9,5 @@ int fibonacciSeries(int n){
         a=b;
         b=sum;
     }
+    return 0;
 }
