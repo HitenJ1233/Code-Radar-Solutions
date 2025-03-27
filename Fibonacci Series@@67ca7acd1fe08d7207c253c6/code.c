@@ -8,7 +8,7 @@ int fibonacciSeries(int n){
         printf("%d ",sum);
         sum=a+c;
         a=b;
-        b=sum;
+        c=sum;
     }
     return sum;
 
