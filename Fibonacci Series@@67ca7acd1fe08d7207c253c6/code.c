@@ -4,8 +4,8 @@ int fibonacciSeries(int n){
     int b=1;
     int sum=0;
     for (int i=0;i<n;i++){
-        sum=a+b;
         printf("%d ",sum);
+        sum=a+b;
         a=b;
         b=sum;
     }
