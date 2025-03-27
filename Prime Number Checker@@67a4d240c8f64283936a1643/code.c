@@ -19,5 +19,5 @@ int main(){
         scanf("%d",&num);
         printf("%d\n",isprime(num));
     }
-    retrun 0;
+    return 0;
 }
