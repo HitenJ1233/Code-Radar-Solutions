@@ -19,14 +19,13 @@ int main() {
     int arr[n];
     
     // Taking array elements as input
-    printf("Enter %d elements:\n", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
     
     // Checking if array is sorted
     if (isSorted(arr, n)) {
-        printf("The array is sorted in non-decreasing order.\n");
+        printf("Sorted\n");
     } else {
         printf("The array is NOT sorted.\n");
     }
