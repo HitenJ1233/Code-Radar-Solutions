@@ -11,14 +11,14 @@ int main() {
     // if (n == 1 || arr[0] > arr[1]) {
     //     peak = arr[0];
     // } 
-    else {
+    
         for (int i = 0; i < n - 1; i++) {
             if (arr[i] > arr[i + 1]) {
                 peak = arr[i];
                 break;
             }
         }
-    }
+    
     if (peak == -1 && arr[n - 1] > arr[n - 2]) {
         peak = arr[n - 1];
     }
