@@ -1,17 +1,29 @@
 #include <stdio.h>
-int main(){
-     int n;
-    scanf("%d",&n);
+
+int main() {
+    int n;
+    scanf("%d", &n);
     int arr[n];
-    for (int i=0;i<=n-1;i++){
-        for (int j=0;j<n-i-1;j++){
-            if(arr[j]>arr[j+1]){
-                int temp = arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=temp;
+    printf("Enter %d elements:\n", n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+    int peak = -1; 
+    if (n == 1 || arr[0] > arr[1]) {
+        peak = arr[0];
+    } 
+    else {
+        for (int i = 1; i < n - 1; i++) {
+            if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
+                peak = arr[i];
+                break;
             }
         }
     }
-    printf("%d",arr[n-1]);
+    if (peak == -1 && arr[n - 1] > arr[n - 2]) {
+        peak = arr[n - 1];
+    }
+    if (peak != -1)
+        printf("%d\n", peak);
     return 0;
 }
