@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int arr[n]={5,4,3,2,1};
+    int arr[n];
     int n;
     scanf("%d",&n);
     for (int i=0;i<=n-1;i++){x
