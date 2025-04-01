@@ -8,12 +8,12 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int peak = -1; 
-    if (n == 1 || arr[0] > arr[1]) {
-        peak = arr[0];
-    } 
+    // if (n == 1 || arr[0] > arr[1]) {
+    //     peak = arr[0];
+    // } 
     else {
-        for (int i = 1; i < n - 1; i++) {
-            if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) {
+        for (int i = 0; i < n - 1; i++) {
+            if (arr[i] > arr[i + 1]) {
                 peak = arr[i];
                 break;
             }
