@@ -1,5 +1,5 @@
 #include <stdio.h>
-int bubbleSort(x,y){
+void bubbleSort(x,y){
     for (int i=0;i<=y-1;i++){
         for (int j=0;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
